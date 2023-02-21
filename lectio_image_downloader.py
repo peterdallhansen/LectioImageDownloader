@@ -72,6 +72,7 @@ for index, url in enumerate(classurls):
 			file.write(image.content)
 			print(f"Image {idx+1} downloaded successfully to images/{class_names[index]}")
 
+#For performance analysis
 et = time.time()
 elapsed_time = et - st
 print('Execution time:', elapsed_time, 'seconds')
